@@ -6,7 +6,7 @@ public class Truck extends Transport{
     public void servicing() {
         System.out.println("Проверяем двигатель");
         System.out.println("Проверяем прицеп");
-        for (int i = 1; i < wheelsCount; i++) {
+        for (int i = 0; i < wheelsCount; i++) {
             System.out.println("Меняем покрышку");
         }
     }

@@ -5,7 +5,7 @@ public class Car extends Transport{
     @Override
     public void servicing() {
         System.out.println("Проверяем двигатель");
-        for (int i = 1; i < wheelsCount; i++) {
+        for (int i = 0; i < wheelsCount; i++) {
             System.out.println("Меняем покрышку");
         }
     }

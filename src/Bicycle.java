@@ -5,7 +5,7 @@ public class Bicycle extends Transport implements Service {
 
     @Override
     public void servicing() {
-        for (int i = 1; i < wheelsCount; i++) {
+        for (int i = 0; i < wheelsCount; i++) {
             System.out.println("Меняем покрышку");
         }
     }
